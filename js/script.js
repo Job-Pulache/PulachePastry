@@ -780,7 +780,7 @@ function renderChatStep(stepKey, userLabel = null) {
 function handleChatOption(opt) {
   if (opt.action === 'whatsapp') {
     chatAppendBubble(`<div class="chat-bubble-user px-4 py-2.5 max-w-[80%] text-sm">${opt.label}</div>`, true);
-    window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hola Maryury, vengo del chat de la web y quisiera más información 😊')}`, '_blank');
+    window.open(`https://wa.me/${952147310}?text=${encodeURIComponent('Hola Maryury, vengo del chat de la web y quisiera más información 😊')}`, '_blank');
     document.getElementById('chatOptionsContainer').innerHTML = `
       <button class="chat-option-btn text-xs px-3.5 py-2 rounded-full border border-rose-300 text-cocoa-600 bg-cream-50" onclick="renderChatStep('start')">⬅ Volver al inicio</button>
     `;
