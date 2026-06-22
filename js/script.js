@@ -531,8 +531,8 @@ function checkoutWhatsApp() {
   const encodedMessage = encodeURIComponent(message);
 
   const url = isMobileDevice()
-    ? `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMessage}`
-    : `https://web.whatsapp.com/send?phone=${WHATSAPP_NUMBER}&text=${encodedMessage}`;
+    ? `https://wa.me/${51952147310}?text=${encodedMessage}`
+    : `https://web.whatsapp.com/send?phone=${51952147310}&text=${encodedMessage}`;
 
   window.open(url, '_blank');
 }
